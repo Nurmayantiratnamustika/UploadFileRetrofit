@@ -6,6 +6,7 @@ import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
 
 import android.app.ProgressDialog;
+import android.content.Intent;
 import android.os.Bundle;
 import android.os.Handler;
 import android.view.View;
@@ -85,7 +86,6 @@ public class RecipeActivity extends AppCompatActivity {
                 snackbar.show();
             }
         });
-//
     }
 
     public void doLoad() {
@@ -146,5 +146,9 @@ public class RecipeActivity extends AppCompatActivity {
                 snackbar.show();
             }
         });
+    }
+    public void handleUpload(View view) {
+        Intent i = new Intent(this, UploadActivity.class);
+        startActivity(i);
     }
 }

@@ -12,7 +12,6 @@
         android:layout_marginStart="8dp"
         android:layout_marginTop="8dp"
         android:layout_marginEnd="8dp"
-        app:cardBackgroundColor="#0000FF"
         app:cardCornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
@@ -29,7 +28,6 @@
                 android:layout_marginTop="16dp"
                 android:layout_marginBottom="21dp"
                 android:text="ID : "
-                android:textColor="@color/cardview_light_background"
                 android:textSize="18sp"
                 app:layout_constraintBottom_toTopOf="@+id/imageView2"
                 app:layout_constraintEnd_toEndOf="parent"
@@ -45,7 +43,6 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="4dp"
                 android:text="NAMA RESEP :"
-                android:textColor="@color/cardview_light_background"
                 android:textSize="18sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
                 app:layout_constraintTop_toBottomOf="@+id/idTag" />
@@ -57,7 +54,6 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:text="BAHAN :"
-                android:textColor="@color/cardview_light_background"
                 android:textSize="18sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
                 app:layout_constraintTop_toBottomOf="@+id/deskripsiText" />
@@ -69,7 +65,6 @@
                 android:layout_marginStart="16dp"
                 android:layout_marginTop="8dp"
                 android:text="DESKRIPSI :"
-                android:textColor="@color/cardview_light_background"
                 android:textSize="18sp"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
                 app:layout_constraintTop_toBottomOf="@+id/namaResepText" />
@@ -78,10 +73,8 @@
                 android:id="@+id/langkahPembuatanTag"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
-                android:layout_marginTop="24dp"
+                android:layout_marginStart="152dp"
                 android:text="LANGKAH PEMBUATAN :"
-                android:textColor="@color/cardview_light_background"
                 android:textSize="18sp"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/bahanText" />
@@ -113,7 +106,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="TextView"
-                android:textColor="@color/cardview_light_background"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
                 app:layout_constraintTop_toBottomOf="@+id/namaResepTag" />
 
@@ -123,7 +115,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="TextView"
-                android:textColor="@color/cardview_light_background"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
                 app:layout_constraintTop_toBottomOf="@+id/bahanTag" />
 
@@ -133,7 +124,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginStart="16dp"
                 android:text="TextView"
-                android:textColor="@color/cardview_light_background"
                 app:layout_constraintStart_toEndOf="@+id/imageView2"
                 app:layout_constraintTop_toBottomOf="@+id/deskripsiTag" />
 
@@ -141,14 +131,13 @@
                 android:id="@+id/langkahPembuatanText"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginStart="4dp"
+                android:layout_marginStart="152dp"
                 android:layout_marginBottom="32dp"
                 android:text="TextView"
-                android:textColor="@color/cardview_light_background"
                 app:layout_constraintBottom_toBottomOf="parent"
                 app:layout_constraintStart_toStartOf="parent"
                 app:layout_constraintTop_toBottomOf="@+id/langkahPembuatanTag"
-                app:layout_constraintVertical_bias="0.0" />
+                app:layout_constraintVertical_bias="1.0" />
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 
